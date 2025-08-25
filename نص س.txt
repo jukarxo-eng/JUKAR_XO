@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUKAR_XO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0d0d0d;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #00ffcc;
+        }
+        .links a {
+            display: block;
+            margin: 15px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #ffcc00;
+        }
+        .links a:hover {
+            color: #00ffcc;
+        }
+    </style>
+</head>
+<body>
+    <h1>أهلاً بكم في صفحة JUKAR_XO 🎮</h1>
+    <p>تابعوني على صفحات التواصل الاجتماعي 👇</p>
+    <div class="links">
+        <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+        <a href="https://www.youtube.com" target="_blank">YouTube</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+    </div>
+</body>
+</html>
