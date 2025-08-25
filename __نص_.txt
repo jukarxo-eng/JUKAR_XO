@@ -1,0 +1,136 @@
+!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JUKAR_XO - الموقع الرسمي</title>
+  <style>
+    body {
+      font-family: 'Tahoma', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('jukar_logo.png') no-repeat center top fixed;
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      background: rgba(0,0,0,0.7);
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    header img {
+      width: 200px;
+      border-radius: 50%;
+      margin-top: 10px;
+      border: 3px solid #00ffcc;
+    }
+
+    nav {
+      background: rgba(0,0,0,0.8);
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #00ffcc;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      background: rgba(0,0,0,0.75);
+      margin: 20px;
+      border-radius: 15px;
+    }
+
+    /* أزرار التواصل */
+    .social a {
+      display: inline-block;
+      margin: 10px;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+      color: #fff;
+    }
+
+    .social a.youtube { background: #ff0000; }
+    .social a.youtube:hover { background: #cc0000; }
+
+    .social a.tiktok { background: #000; border: 2px solid #ff0050; }
+    .social a.tiktok:hover { background: #ff0050; color: #fff; }
+
+    .social a.kick { background: #00ff00; color: #000; }
+    .social a.kick:hover { background: #009900; color: #fff; }
+
+    iframe {
+      width: 80%;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: rgba(0,0,0,0.8);
+      padding: 15px;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🎮 أهلاً بكم في الموقع الرسمي لـ JUKAR_XO
+    <br>
+    <img src="jukar_logo.png" alt="JUKAR_XO Logo">
+  </header>
+
+  <nav>
+    <a href="#about">من أنا</a>
+    <a href="#schedule">جدول البث</a>
+    <a href="#live">البث المباشر</a>
+    <a href="#contact">تواصل معي</a>
+  </nav>
+
+  <section id="about">
+    <h2>من أنا؟</h2>
+    <p>
+      أنا <b>JUKAR_XO</b> ستريمر محتوى ألعاب 🎮  
+      أحب التفاعل مع المتابعين ونشر المتعة.  
+      تابعوني على منصات البث المختلفة!
+    </p>
+  </section>
+
+  <section id="schedule">
+    <h2>📅 جدول البث</h2>
+    <p>أبث يومياً الساعة <b>9 مساءً بتوقيت سوريا</b>.</p>
+  </section>
+
+  <section id="live">
+    <h2>🔴 البث المباشر</h2>
+    <p>تابع البث المباشر مباشرة من هنا!</p>
+    <!-- مثال: لو عندك Twitch -->
+    <iframe src="https://player.twitch.tv/?channel=CHANNEL_NAME&parent=yourdomain.com" allowfullscreen></iframe>
+  </section>
+
+  <section id="contact">
+    <h2>📌 تواصل معي</h2>
+    <div class="social">
+      <a href="https://youtube.com/..." class="youtube">📺 YouTube</a>
+      <a href="https://www.tiktok.com/..." class="tiktok">🎵 TikTok</a>
+      <a href="https://kick.com/..." class="kick">🎮 Kick</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 جميع الحقوق محفوظة - JUKAR_XO 🎮
+  </footer>
+</body>
+</html>
